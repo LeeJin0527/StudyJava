@@ -1,8 +1,8 @@
-package CarEx;
+package com.company.프로젝트라이언.Week1.CarEx;
 
 
 import java.util.ArrayList;
-import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
 //        Driver unlicensed = new Driver("unlinensed", 0);

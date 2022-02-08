@@ -1,4 +1,4 @@
-package CarEx;
+package com.company.프로젝트라이언.Week1.CarEx;
 
 public abstract  class AbstractCar implements CarInterface {
     protected int velocity;
