@@ -5,9 +5,10 @@ public abstract class AbstractPerson implements Person {
     protected int age;
     protected String status;
 
-    public AbstractPerson(String name, int age) {
+    public AbstractPerson(String name, int age, String status) {
         this.name = name;
         this.age = age;
+        this.status = status;
 
     }
 
