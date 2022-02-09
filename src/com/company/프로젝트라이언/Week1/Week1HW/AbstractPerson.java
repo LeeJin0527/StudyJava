@@ -17,4 +17,12 @@ public abstract class AbstractPerson implements Person {
         System.out.println("이름은 "+name+"이며 나이는 "+age+"이고 "+status+"입니다.");
     }
 
+    @Override
+    public String toString() {
+        return "AbstractPerson{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }
