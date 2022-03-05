@@ -4,7 +4,7 @@ public class Student extends AbstractPerson {
 
 
     public Student(String name, int age) {
-        super(name, age, "학생 ");
+        super(name, age, "학생입니다  ");
 
     }
 
