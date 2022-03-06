@@ -12,7 +12,7 @@ public class ChallengeMain {
         Lecturer lecturer = new Lecturer("이호맹", 2);
         List<Person> everyone = new ArrayList<>();
         everyone.add(student);
-        everyone.add(lecturer);
+        everyone.add(lecturer);준
         printItems(everyone);
 
         Vector<Person> everyone1 = new Vector<>();
