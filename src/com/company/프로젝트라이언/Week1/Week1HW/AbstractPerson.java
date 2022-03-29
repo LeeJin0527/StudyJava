@@ -14,7 +14,7 @@ public abstract class AbstractPerson implements Person {
 
     @Override
     public void speak() {
-        System.out.println("이름은 "+name+"이며 나이는 "+age+"이고 "+status+"입니다.");
+        System.out.println("이름은 "+name+"이며 나이는 "+age+"이고 "+status+"입니다!");
     }
 
     @Override
